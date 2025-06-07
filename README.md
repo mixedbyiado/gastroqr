@@ -164,5 +164,5 @@ Scala: 100% (NO adatta alla pagina)
 
 **🍽️ Buon appetito con GastroQR!** 👨‍🍳✨
 
-ideato e sviluppato da joshua iadonisi
-LLM utilizzati nel webdesign e il troubleshooting: Anthropic Sonnet 4, OpenAI o4-mini-high
+ideato e sviluppato da joshua iadonisi con supporto di Anthropic Sonnet 4 (webdesing & troubleshooting)
+
