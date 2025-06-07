@@ -1,0 +1,135 @@
+       body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+    
+        .etichetta {
+            width: 24mm;
+            height: 70mm; 
+            background-color: white;
+            border: 1px solid #ccc;
+            padding: 1mm;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            text-align: center;
+            page-break-inside: avoid;
+            box-sizing: border-box;
+        }
+        
+        .qr-code {
+            width: 18mm;
+            height: 18mm;
+            margin: 1mm 0;
+            flex-shrink: 0;
+        }
+        
+        .nome-prodotto {
+            font-size: 7pt;
+            font-weight: bold;
+            line-height: 1.0;
+            margin: 1mm 0;
+            word-wrap: break-word;
+            max-width: 22mm;
+            text-align: center;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+        
+        .data-scadenza {
+            font-size: 6pt;
+            color: #e74c3c;
+            font-weight: bold;
+            margin: 1mm 0;
+            flex-shrink: 0;
+        }
+        
+        .anteprima {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .anteprima h2 {
+            color: #2c3e50;
+        }
+        
+        .stampa-btn {
+            background-color: #27ae60;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 10px;
+        }
+        
+        .stampa-btn:hover {
+            background-color: #219a52;
+        }
+        
+        .indietro-btn {
+            background-color: #95a5a6;
+        }
+        
+        .indietro-btn:hover {
+            background-color: #7f8c8d;
+        }
+        
+        /* Stili per la stampa P-touch 24mm */
+        @media print {
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: white;
+                width: 24mm;
+            }
+            
+            .no-print {
+                display: none !important;
+            }
+            
+            .etichetta {
+                border: none !important;
+                margin: 0 !important;
+                padding: 0.5mm !important;
+                width: 24mm !important;
+                height: auto !important;
+                min-height: 60mm;
+                max-height: 80mm;
+                box-sizing: border-box;
+                page-break-inside: avoid;
+                background: white;
+            }
+            
+            .qr-code {
+                width: 16mm !important;
+                height: 16mm !important;
+                margin: 1mm auto !important;
+            }
+            
+            .nome-prodotto {
+                font-size: 6pt !important;
+                line-height: 1.1 !important;
+                margin: 1mm 0 !important;
+                max-width: 23mm !important;
+            }
+            
+            .data-scadenza {
+                font-size: 5pt !important;
+                margin: 1mm 0 !important;
+            }
+        }
+        
+        @page {
+            size: 80mm 24mm;
+            margin: 0mm;
+            marks: none;
+            bleed: 0mm;
+        }
