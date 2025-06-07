@@ -28,8 +28,8 @@ CREATE TABLE IF NOT EXISTS bollettini (
     FOREIGN KEY (user_id) REFERENCES utenti(id) ON DELETE CASCADE
 );
 
--- Inserimento utenti di esempio
+-- Inserimento utente admin
 INSERT INTO utenti (username, password, nome, ruolo) VALUES 
 ('iadonj', '$2y$10$hDkxsUclV/.wln9dcbAKbO/tkBFDqJQ2hEcYDBcuRYoFJhjIcY.1.', 'Joshua Iadonisi (AMMINISTRATORE)', 'admin');
 
--- Password per tutti gli utenti: "password"
+
