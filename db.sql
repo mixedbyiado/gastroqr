@@ -30,8 +30,6 @@ CREATE TABLE IF NOT EXISTS bollettini (
 
 -- Inserimento utenti di esempio
 INSERT INTO utenti (username, password, nome, ruolo) VALUES 
-('cuoco1', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'Mario Rossi', 'cuoco'),
-('cuoco2', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'Lucia Verdi', 'cuoco'),
-('admin', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'Amministratore', 'admin');
+('iadonj', '$2y$10$hDkxsUclV/.wln9dcbAKbO/tkBFDqJQ2hEcYDBcuRYoFJhjIcY.1.', 'Joshua Iadonisi (AMMINISTRATORE)', 'admin');
 
 -- Password per tutti gli utenti: "password"
