@@ -12,7 +12,7 @@ GastroQR è un'applicazione web PHP sviluppata per il **modulo 133 della formazi
 
 - **📷 Upload bollettini** tramite camera smartphone
 - **🔲 Generazione QR code** automatica per ogni prodotto
-- **🖨️ Stampa etichette** testato su P-Touch 24mm ottimizzate
+- **🖨️ Stampa etichette** testato su P-Touch 24mm
 - **👥 Sistema multi-utente** con autenticazione
 - **⚙️ Pannello amministrazione** per gestione utenti
 - **📊 Dashboard statistiche** e monitoraggio scadenze
