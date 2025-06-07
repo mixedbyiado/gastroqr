@@ -164,5 +164,5 @@ Scala: 100% (NO adatta alla pagina)
 
 **🍽️ Buon appetito con GastroQR!** 👨‍🍳✨
 
-ideato e sviluppato da joshua iadonisi con supporto di Anthropic Claude Sonnet 4 (webdesing & troubleshooting)
+ideato e sviluppato da joshua iadonisi con supporto di Anthropic Claude Sonnet 4 (webdesign & troubleshooting)
 
